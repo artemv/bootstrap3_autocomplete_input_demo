@@ -47,6 +47,7 @@ gem "haml-rails"
 gem 'faker'
 gem 'simple_form'
 gem 'bootstrap3_autocomplete_input'
+gem 'jquery-turbolinks'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-bootstrap'

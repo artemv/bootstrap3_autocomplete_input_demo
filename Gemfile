@@ -43,6 +43,7 @@ group :development, :test do
   gem 'spring'
 end
 
+gem "haml-rails"
 gem 'faker'
 gem 'simple_form'
 gem 'bootstrap3_autocomplete_input'

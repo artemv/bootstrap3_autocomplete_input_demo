@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby '2.2.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.3'
@@ -43,7 +43,10 @@ group :development, :test do
   gem 'spring'
 end
 
+gem 'faker'
 gem 'simple_form'
+gem 'bootstrap3_autocomplete_input'
+
 source 'https://rails-assets.org' do
   gem 'rails-assets-bootstrap'
 end
